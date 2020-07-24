@@ -39,10 +39,10 @@
     </section>
     <section class="row controls" v-else>
         <div class="small-12 columns">
-            <button id="attack">ATACAR</button>
-            <button id="special-attack">ATAQUE ESPECIAL</button>
-            <button id="heal">CURAR</button>
-            <button id="give-up">RENDIRSE</button>
+            <button id="attack" v-on:click="atacar">ATACAR</button>
+            <button id="special-attack" v-on:click="ataqueEspecial">ATAQUE ESPECIAL</button>
+            <button id="heal" v-on:click="curar">CURAR</button>
+            <button id="give-up" v-on:click="rendirse">RENDIRSE</button>
         </div>
     </section>
     <section class="row log">
