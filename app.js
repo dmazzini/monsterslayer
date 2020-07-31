@@ -8,6 +8,10 @@ new Vue({
         atacar: function() {
             this.jugador = this.jugador -10
             this.monstruo = this.monstruo -10
+        },
+        curar: function() {
+            this.jugador = this.jugador + 10
+            this.monstruo = this.monstruo + 10
         }
     }
 }
